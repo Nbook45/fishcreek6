@@ -1,0 +1,52 @@
+html {
+	max-width: 1000px;
+	margin: auto;
+	background-color: #FFFFFF;
+	color: #003366 
+}
+* { box-sizing: border-box; }
+title { 
+	background-color: #000066; 
+	color: #F0F0F0; 
+	background-image: url(bigfish.gif); border-style: none; 
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	}
+body { 
+	background-color: #5280C5; 
+	color: #003366; 
+	font-family: Verdana, Arial, sans-serif; 
+	background-image: url (gradientblue.jpg);
+	}
+h1 { 
+	background-color: #003366;
+	color: #AEC3E3;
+	line-height: 250%; text-indent: 1em; 
+	margin-bottom: 0;
+	font-size: 3em; padding: 0.2em; text-shadow: #CCCCCC;
+}
+nav { 
+	font-weight: bold; padding: 5px; float: left 180px;
+	ul {list-style-type: none;}
+	text-decoration: none;
+	a:link { color: #000066; }
+	a:visited { color: #5280C5; }
+	a:hover { color: #3262A3; }
+	}
+main {
+	margin-left: 180px; padding-left: 2em; padding-right: 2em; background-color: white; border: solid 1px #AEC3E3; 
+	}
+dt { 
+	color: #5280C5; line-height: 1.1em; font-weight: bold; font-family: Times New Roman; 
+	}
+.category { 
+	font-weight: bold; color: #5380C5; font-family: Georgia; text-shadow: 1px 1px 1px #667;
+	}
+footer { 
+	font-height: .70em; font-style: italic; padding: 1em; margin-left: 180px; background-color: #F0F8FF;
+	}
+	
+#wrapper {
+	min-width: 700px; margin-right: auto; margin-left: auto; background-color: #F0F0F0;
+}
